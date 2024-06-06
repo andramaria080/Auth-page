@@ -1,0 +1,75 @@
+.wrapper {
+  height: auto;
+  display: flex;
+  text-align: center;
+}
+:root {
+  --lightGreen: #c0ecbf;
+  --lightGray: #333;
+}
+.form-container {
+  padding: 20px;
+  background: transparent;
+  border: 1px solid var(--lightGreen);
+  border-radius: 12px;
+  backdrop-filter: blur(30px);
+  box-shadow: 0px 0px 10px #c5e9c5;
+}
+.form-content {
+  flex-direction: column;
+  gap: 26px;
+}
+.input-box {
+  align-items: center;
+}
+.input-box input {
+  width: 100%;
+  background: transparent;
+  height: 45px;
+  padding: 0px 12px;
+  outline: none;
+  border: 1px solid var(--lightGreen);
+  border-radius: 40px;
+  color: var(--lightGray);
+}
+input::placeholder {
+  color: var(--lightGreen);
+  font-size: 16px;
+}
+.icon {
+  color: var(--lightGreen);
+}
+.form-content h1 {
+  font-size: 36px;
+}
+.remember-box {
+  justify-content: space-between;
+  font-size: 16px;
+}
+.remember-box label {
+  display: flex;
+  justify-content: center;
+}
+
+.remember-box label input {
+  accent-color: var(--lightGreen);
+  margin-right: 4px;
+}
+a {
+  margin-left: 4px;
+  text-decoration: none;
+}
+.register-link {
+  font-weight: 600;
+}
+button {
+  cursor: pointer;
+  width: 100%;
+  height: 45px;
+  border-radius: 40px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  color: var(--lightGray);
+}
